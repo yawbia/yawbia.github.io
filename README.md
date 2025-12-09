@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Yaw Bia Tan
 
-# Run and deploy your AI Studio app
+**Protein Engineering | Diagnostics | Structural Biology**
 
-This contains everything you need to run your app locally.
+[![Live Demo](https://img.shields.io/badge/Live-Website-D4B483?style=for-the-badge&logo=github)](https://yawbia.github.io)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1WSly3iOZTT4opQYV3caikWY7QNP65IK-
+## About Me
 
-## Run Locally
+I am a Protein Engineer and Scientist specializing in Structural Biology and Virology. My work focuses on developing next-generation diagnostics and therapeutics through protein biology and computational design.
 
-**Prerequisites:**  Node.js
+With a background in both wet-lab biochemistry and in-silico modeling, I bridge the gap between structural discovery and practical application.
 
+## Research Highlights
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Protein Engineering:** Innovating protein components for multiplex diagnostics using in-silico platforms.
+- **Structural Biology:** Expertise in Cryo-EM of small membrane proteins, antibodies, and viral replication complexes.
+- **Virology:** Elucidating assembly mechanisms of Alphaviruses and investigating drug discovery targets.
+
+## Built With
+
+This portfolio is a single-page application built with modern web technologies:
+
+- **React 18** (UI Library)
+- **TypeScript** (Type Safety)
+- **Vite** (Build Tool)
+- **GitHub Actions** (CI/CD)
+
+## Local Development
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yawbia/yawbia.github.io.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
