@@ -25,10 +25,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          # cache: 'npm' # Removed because it requires package-lock.json to work
           
       - name: Install dependencies
-        run: npm install # Changed from npm ci to allow installation without a pre-existing lock file
+        # Explicitly install the Linux-specific Rollup binary to bypass the npm optional dependency bug
+        # This is necessary because package-lock.json is missing
+        run: |
+          npm install
+          npm install -D @rollup/rollup-linux-x64-gnu
         
       - name: Build
         run: npm run build
