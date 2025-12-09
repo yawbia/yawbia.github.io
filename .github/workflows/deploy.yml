@@ -27,8 +27,7 @@ jobs:
           node-version: "20"
           
       - name: Install dependencies
-        # Explicitly install the Linux-specific Rollup binary to bypass the npm optional dependency bug
-        # This is necessary because package-lock.json is missing
+        # We explicitly install the rollup-linux binary to fix the GitHub Actions build error
         run: |
           npm install
           npm install -D @rollup/rollup-linux-x64-gnu
