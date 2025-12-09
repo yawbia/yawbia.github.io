@@ -8,8 +8,8 @@ import {
   ArrowRight,
   ArrowUp
 } from 'lucide-react';
-import Navigation from './components/Navigation';
-import Section from './components/Section';
+import Navigation from './src/components/Navigation';
+import Section from './src/components/Section';
 import { PERSONAL_INFO, HIGHLIGHTS, PUBLICATIONS, EXPERIENCE, SOCIAL_LINKS, EDUCATION } from './constants';
 
 const App: React.FC = () => {
