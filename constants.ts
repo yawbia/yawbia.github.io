@@ -2,12 +2,12 @@ import { Publication, NewsItem, Experience, SocialLink, Education } from './type
 
 export const PERSONAL_INFO = {
   name: "Yaw Bia Tan",
-  title: "Protein Engineering | Diagnostics | Structural Biology",
+  title: "Protein Engineering | Diagnostics | Structural Biology | Virology",
   tagline: "Protein enthusiast developing next-generation diagnostics using protein biology and computational design.",
-  about: `I am a Protein Engineer and Scientist specializing in Structural Biology and Virology. My work focuses on developing next-generation diagnostics and therapeutics through protein biology and computational design.
+  about: `I am a Protein Engineer specializing in Structural Biology and Virology. My current work focuses on developing next-generation diagnostics through protein biology and computational design.
 
-  With a background in both wet-lab biochemistry and in-silico modeling, I bridge the gap between structural discovery and practical application.`,
-  email: "yawbia@example.com", 
+  With expertise in both wet-lab protein biology and computational methods, I provide technical solutions to industrial applications.`,
+  email: "tanyawbia6@gmail.com", 
   location: "Singapore",
   profileImage: "", 
 };
